@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/piFinder/static/css/main.355ef990.css",
+    "main.js": "/piFinder/static/js/main.02a7214b.js",
+    "static/media/right-arrow-in-circular-button-svgrepo-com.svg": "/piFinder/static/media/right-arrow-in-circular-button-svgrepo-com.bd3c5e6e8c3dedb4d5b73b888bb7cd47.svg",
+    "index.html": "/piFinder/index.html",
+    "main.355ef990.css.map": "/piFinder/static/css/main.355ef990.css.map",
+    "main.02a7214b.js.map": "/piFinder/static/js/main.02a7214b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.355ef990.css",
+    "static/js/main.02a7214b.js"
+  ]
+}
