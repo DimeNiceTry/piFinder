@@ -1,0 +1,25 @@
+* {
+  font-family: "Montserrat", Robotto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #eee;
+}
+.App {
+  padding: 20px;
+  width: 900px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Montserrat", Robotto;
+  background: #f3f3f3;
+
+}
+.coords{
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  gap: 20px;
+}

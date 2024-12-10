@@ -1,0 +1,15 @@
+.fndBtn{
+    margin: 0 auto;
+    padding: 10px 20px;
+    background: transparent;
+    margin-top: 15px;
+    cursor: pointer;
+    display: block;
+    box-shadow: 1px 1px 5px grey ;
+}
+.fndBtn:hover{
+    background: #fde0a5
+}
+.fndBtn:active{
+    background: #eeb950
+}

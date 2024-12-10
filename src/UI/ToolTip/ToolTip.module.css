@@ -1,0 +1,47 @@
+.tooltip-container {
+  position: relative;
+  display: flex;
+  justify-content: baseline;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.TooltipLink {
+  font-weight: 600;
+  align-items: center;
+  align-self: center;
+}
+
+.TooltipLink-container {
+  font-weight: 500;
+  padding: 10px 20px;
+  background: #fff;
+  border: #a4a3a0 1px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 15px 15px 0 0;
+  transition: border-radius 0.5s ease, background-color 0.5s ease;
+}
+
+
+
+.tooltip-text {
+  padding: 10px 5px 10px 5px;
+  text-align: left;
+  max-height: 0;         
+  opacity: 0;          
+  visibility: hidden;
+
+  transition: max-height 0.5s ease, opacity 0.5s ease;  /* Переходы */
+  border: 1px solid #FFBC39;
+  border-radius: 0 0 15px 15px;
+}
+
+.tooltip-text.visible {
+  max-height: 300px;    
+  opacity: 1;           
+  visibility: visible;
+
+}
+
